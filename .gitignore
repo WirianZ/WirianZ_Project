@@ -1,0 +1,7 @@
+# Arduino IDE junk files
+*.bak
+*.s
+*.hex
+*.elf
+build/
+libraries/
