@@ -1,0 +1,43 @@
+.dashboard-container {
+    display: flex;
+    justify-content: flex-start; /* Ubah ke flex-start agar tidak terlalu jauh jaraknya */
+    align-items: flex-start; /* Tadi kurang titik koma di sini (;) */
+    gap: 20px; /* Gap 100px mungkin terlalu lebar untuk layar standar */
+    margin: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column; /* Membuat card di dalam sidebar berderet ke bawah */
+    gap: 15px;
+    flex-shrink: 0; /* Mencegah sidebar menyusut */
+    background-color:;
+}
+.healht-card,
+.Soil-moisture-card {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.healht-card {
+    background-color: red;
+}
+
+.Soil-moisture-card {
+    background-color: blue;
+}
+
+/* Memperbaiki ukuran box agar lebih proporsional */
+.chartbox-large,
+.chartbox-small {
+    background: #1e1e1e;
+    padding: 50px; /* Dikurangi sedikit agar tidak terlalu raksasa */
+    width: 100%; /* Mengikuti lebar container-nya */
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.chartbox-small {
+    background: maroon;
+    margin-top: 0; /* Pastikan tidak ada margin yang mendorong ke bawah */
+}
