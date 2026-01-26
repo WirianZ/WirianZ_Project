@@ -1,7 +1,4 @@
-/* * NARA: The Revived Robot 
- * Fixed: Corrected Frame usage (no buf/len members in esp32cam::Frame), 
- * back to writeTo() method, added more logging.
- */
+
 #include <WiFi.h>
 #include <WebServer.h>
 
@@ -44,6 +41,7 @@ void setup() {
 }
 void loop() {
   check_growht();
+  
 }
 
 void check_growht(){
