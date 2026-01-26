@@ -3,5 +3,19 @@
 *.s
 *.hex
 *.elf
+build//
+# FreeCAD
+*.FCBak
+*.LCK
+
+# Arduino / ESP32
+*.hex
+*.elf
+*.bin
+.vscode/
+.pio/
 build/
-libraries/
+
+# System files
+.DS_Store
+Thumbs.db
